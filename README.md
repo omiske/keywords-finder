@@ -5,7 +5,7 @@ Find keywords or sentences from PDF files and find which ones are a match.
 
 2 - Searches keywords/sentences from file keywords.txt
       
-    **Each sentence or keyword must be in different lines**
+    **Each sentence or keyword must be on a different lines**
 
 
 3 - Results are saved into an excel file
