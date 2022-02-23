@@ -1,4 +1,4 @@
-# PDF Keywords and sentences finder application based on R
+# PDF Keywords/sentences finder application based on R
 
 ## Overview
 Dockerized R application to find keywords and/or sentences from PDF files and find which ones are a match. The structure of the program is as follows:
