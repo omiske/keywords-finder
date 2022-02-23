@@ -1,6 +1,4 @@
 # convert multiple pdf-files to txt
-# install.packages(c("pdftools", "dplyr", "stringr", "httr", "jsonlite"))
-
 library(pdftools)
 library(dplyr)
 library(stringr)
@@ -23,9 +21,9 @@ convertpdf2txt <- function(dirpath){
 }
 
 # Apply function
-txts <- convertpdf2txt("../files/pdf-files/")
+txts <- convertpdf2txt("files/pdf-files/")
 
 # Save the files
-names(txts) <- str_remove(names(txts), "../files/pdf-files/")
+names(txts) <- str_remove(names(txts), "files/pdf-files/")
 lapply(seq_along(txts), function(i)writeLines(text = unlist(txts[i]),
-     con = paste("../files/txt-files/", names(txts)[i],".txt", sep = "")))
+     con = paste("files/txt-files/", names(txts)[i],".txt", sep = "")))
