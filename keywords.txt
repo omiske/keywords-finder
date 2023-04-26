@@ -1,2 +1,2 @@
-# add here the keywords and sentences
-# each word or sentence must be set on a different line
+power analysis
+power calculation
